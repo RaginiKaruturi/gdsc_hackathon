@@ -1,0 +1,35 @@
+.faq-container {
+    margin: 20px 0;
+}
+
+.faq {
+    background-color: #fff;
+    border: 1px solid  #2f2d2d;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+.faq button {
+    background-color:#878c93;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    opacity: ;
+}
+
+.faq .pannel {
+    padding: 20px;
+    display: none;
+    overflow: hidden;
+    color: black;
+}
+
+/* Add styles for the active state if needed */
+.faq.active .pannel {
+    display: block;
+}
